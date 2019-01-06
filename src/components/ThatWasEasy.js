@@ -20,7 +20,7 @@ class ThatWasEasy extends React.Component {
 
     return(
       <button className={btn_class} onClick={() => this.handleClick()}>
-        Press Me
+        {this.props.label}
       </button>
     )
   }
