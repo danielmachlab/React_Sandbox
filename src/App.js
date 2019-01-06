@@ -4,6 +4,7 @@ import Welcome from './components/Welcome';
 import Weather from './components/Weather';
 import ThatWasEasy from './components/ThatWasEasy';
 import BunchOfButtons from './components/BunchOfButtons';
+import FormikExample from './components/FormikExample';
 
 
 
@@ -25,6 +26,9 @@ class App extends Component {
         </div>
         <div>
           <BunchOfButtons/>
+        </div>
+        <div>
+          <FormikExample/>
         </div>
         
       </div>
