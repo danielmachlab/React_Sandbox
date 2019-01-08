@@ -5,6 +5,7 @@ import Weather from './components/Weather';
 import ThatWasEasy from './components/ThatWasEasy';
 import BunchOfButtons from './components/BunchOfButtons';
 import FormikExample from './components/FormikExample';
+import MyFormik from './components/MyFormik';
 
 
 
@@ -30,6 +31,10 @@ class App extends Component {
         <div>
           <FormikExample/>
         </div>
+        <div className="CenterThatThing">
+          <MyFormik/>
+        </div>
+
         
       </div>
     );

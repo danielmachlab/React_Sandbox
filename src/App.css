@@ -6,9 +6,13 @@
 .Weather {
   font-size: 30px;
   text-align: center;
-}
+} 
 
 .Welcome {
   font-size: 12px;
   text-align: right;
+}
+
+.CenterThatThing {
+  text-align: center;
 }
